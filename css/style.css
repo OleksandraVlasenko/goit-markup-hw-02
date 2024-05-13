@@ -38,7 +38,7 @@ ul {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .menu-nav:hover, .menu-nav:focus {
@@ -51,6 +51,10 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     font-style: normal;
+    color: #434455;
+}
+
+.contacts-list {
     color: #434455;
 }
 
@@ -80,10 +84,7 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    border-radius: 4px;
-    width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 
@@ -148,11 +149,7 @@ button:hover, button:focus {
 }
 
 .team-card {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
     height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
