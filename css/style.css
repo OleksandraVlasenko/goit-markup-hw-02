@@ -19,6 +19,7 @@ ul {
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    line-height: 1.17;
     color: #4d5ae5;
 }
 
@@ -35,11 +36,13 @@ ul {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #2e2f42;
 }
 
 .menu-nav:hover, .menu-nav:focus {
-    color: #404bbf
+    color: #404bbf;
+    line-height: 1.5;
 }
 
 .contacts {
@@ -47,11 +50,13 @@ ul {
     font-size: 16px;
     letter-spacing: 0.02em;
     font-style: normal;
+    line-height: 1.5;
     color: #434455;
 }
 
 .contacts-list {
-    color: #434455
+    color: #434455;
+    line-height: 1.5;
 }
 
 .contacts-list:hover, .contacts-list:focus {
@@ -67,6 +72,7 @@ ul {
     font-size: 56px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.07;
     color: #fff;
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -76,6 +82,7 @@ button {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: #ffffff;
     cursor: pointer;
     background: #4d5ae5;
@@ -89,6 +96,7 @@ button:hover, button:focus {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
@@ -103,6 +111,7 @@ button:hover, button:focus {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -115,6 +124,7 @@ button:hover, button:focus {
     font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.11;
     color: #2e2f42;
     text-transform: capitalize;
 }
@@ -124,6 +134,7 @@ button:hover, button:focus {
     font-size: 20px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
@@ -132,6 +143,7 @@ button:hover, button:focus {
     font-size: 16px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -144,6 +156,7 @@ button:hover, button:focus {
     font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.11;
     color: #2e2f42;
     text-transform: capitalize;
 }
@@ -152,6 +165,7 @@ button:hover, button:focus {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
@@ -159,6 +173,7 @@ button:hover, button:focus {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
 }
 
@@ -171,6 +186,7 @@ button:hover, button:focus {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
     color: #f4f4fd;
 }
@@ -180,5 +196,6 @@ button:hover, button:focus {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #f4f4fd;
 }
