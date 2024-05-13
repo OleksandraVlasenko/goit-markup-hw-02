@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -18,7 +20,7 @@ ul {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-part {
@@ -28,10 +30,10 @@ ul {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
-.menu > li > a {
+.menu-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -39,12 +41,25 @@ ul {
     color: #2e2f42;
 }
 
-.contacts > li > a {
+.menu-nav:hover, .menu-nav:focus {
+    color: #404bbf
+}
+
+.contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455;
+}
+
+.mail:hover, .mail:focus {
+    color: #404bbf;
+}
+
+.tel:hover, .tel:focus {
+    color: #404bbf;
 }
 
 .main {
@@ -62,22 +77,22 @@ ul {
 }
 
 button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
-    padding: 16px 16px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 
-.button-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: #fff;
+button:hover, button:focus {
+    background-color: #404BBF
 }
 
 .features {
@@ -115,6 +130,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-names {
@@ -151,6 +167,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-products {
