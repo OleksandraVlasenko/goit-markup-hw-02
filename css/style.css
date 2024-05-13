@@ -38,7 +38,7 @@ ul {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .menu-nav:hover, .menu-nav:focus {
@@ -54,11 +54,7 @@ ul {
     color: #434455;
 }
 
-.mail:hover, .mail:focus {
-    color: #404bbf;
-}
-
-.tel:hover, .tel:focus {
+.contacts-list:hover, .contacts-list:focus {
     color: #404bbf;
 }
 
